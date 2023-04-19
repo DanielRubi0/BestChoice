@@ -78,7 +78,7 @@
                 </form>
             </div>
 
-    <div class="container">
+    {{-- <div class="container">
         <ul class="categories">
             @foreach ($categories as $category)
             <li class="nav-link">
@@ -116,7 +116,7 @@
             </li>
             @endforeach
         </ul>
-    </div>
+    </div> --}}
 
     <!-- Finder and categories end -->
 

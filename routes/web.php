@@ -23,8 +23,6 @@ use League\CommonMark\Extension\Footnote\Node\FootnoteRef;
 Route::get('/', [PublicController::class, 'index'])->name('home');
 
 Route::get('/about', [PublicController::class, 'about'])->name('about');
-Route::get('/privacy', [PublicController::class, 'privacy'])->name('privacy');
-Route::get('/conditions', [PublicController::class, 'conditions'])->name('conditions');
 Route::get('/category/{category:name}/ads', [PublicController::class, 'adsByCategory'])->name('category.ads');
 Route::get("/search", [PublicController::class, 'search'])->name('search');
 Route::get('lang/{lang}', ['as' => 'lang.switch', 'uses' => 'App\Http\Controllers\LanguageController@switchLang']);

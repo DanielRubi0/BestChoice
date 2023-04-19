@@ -114,6 +114,10 @@
                     href="{{ route('ad.destroy', $ad) }}"><i class="fa-solid fa-trash-can mx-2"></i>{{__('Borrar')}}</a>
                 @endif
                 @endauth
+                <hr>
+                <p class="justify-text"><b class="fs-5">Nota: </b>Las imágenes de estos productos <b><u>no son imágenes de productos reales</u></b>, sino que fueron utilizadas con fines educativos para desarrollar este proyecto.</p>
+                
+                <p>Estas imágenes fueron tomadas de la tienda online <a href="https://es.shein.com/" target="_blank">Shein</a> y todos los derechos de las imágenes pertenecen a esta empresa.</p>
             </div>
         </div>
 
